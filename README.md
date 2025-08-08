@@ -41,3 +41,36 @@ For optimal performance, we recommend:
 |----------------|----------|------------|
 | **Total Loss** | 64.0     | 62.0       |
 | **Accuracy**   | 110px    | 105px      |
+
+### 1. Installation
+```bash
+git clone https://github.com/kir-lvov/Adele-vision-sensor-navigation.git
+cd Adele-vision-sensor-navigation
+```
+
+### 2. Running via Docker
+```bash
+# Сборка образа
+docker build -t adele-drone .
+
+# Запуск (CPU)
+docker run -it --rm \
+  -v $(pwd)/data:/app/data \
+  -v $(pwd)/weights:/app/weights \
+  adele-drone
+
+# Для GPU
+docker run -it --rm --gpus all adele-drone
+```
+
+## 📦 Project structure
+```
+/data          # Датсеты (не включены в репозиторий)
+/weights       # Модели (используйте Git LFS)
+/src           # Исходный код
+Dockerfile     # Конфигурация контейнера
+```
+
+## 🛠 Requirements
+- Docker 20+
+- NVIDIA Docker (для GPU)
