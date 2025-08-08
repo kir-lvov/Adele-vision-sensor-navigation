@@ -13,14 +13,12 @@ A deep learning system that predicts optimal drone flight paths to avoid trees w
 - **Sigmoid output**: Predicts normalized [0,1] avoidance coordinates
 
 ## 📊 Training Progress
-![Training Metrics](docs/training_metrics.png)  
-*Loss and accuracy over 50 epochs*
+ <img width="1920" height="1038" alt="Результат 1" src="https://github.com/user-attachments/assets/4a16a321-19a6-473e-8b00-5f60fe97bde9" />
+
+*Loss and accuracy over 25 epochs*
 
 ### Key Metrics
-| Epoch | Loss | Position Error (px) | Wind Adaptation Error |
-|-------|------|---------------------|-----------------------|
-| 1 | 0.87 | 138 | 0.23 |
-| 5 | 0.45 | 115 | 0.15 |
-| 15 | 0.30 | 104 | 0.12 |
-
----
+| Metric         | Training | Validation |
+|----------------|----------|------------|
+| **Total Loss** | 62.0     | 58.0       |
+| **Accuracy**   | 110px    | 104px      |
