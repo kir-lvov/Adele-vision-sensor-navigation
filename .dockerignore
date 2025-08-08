@@ -1,0 +1,40 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.sublime*
+
+# Version control
+.git/
+.gitignore
+
+# Environment and configuration
+.env
+.venv/
+venv/
+
+# Data and model files (large files - should be mounted at runtime)
+data/
+weights/
+*.pth
+*.pt
+*.h5
+*.bin
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+logs/
+output/
+*.log
+
+# Documentation files
+docs/_build/

@@ -1,0 +1,17 @@
+# Core dependencies
+torch==2.1.2+cu118 --index-url https://download.pytorch.org/whl/cu118  # PyTorch with CUDA 11.8 support
+torchvision==0.16.2+cu118 --index-url https://download.pytorch.org/whl/cu118  # Image processing utilities
+
+# Data processing
+numpy==1.26.4  # Fundamental numerical operations
+opencv-python==4.9.0.80  # Computer vision library
+pillow==10.1.0  # Image handling
+pyyaml==6.0.1  # Configuration file parsing
+
+# Visualization and logging
+matplotlib==3.8.2  # Plotting and visualization
+tqdm==4.66.1  # Progress bars
+
+# Additional utilities
+scipy==1.11.4  # Scientific computing
+pandas==2.1.4  # Data analysis (optional)

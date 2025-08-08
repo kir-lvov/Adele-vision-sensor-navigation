@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Данные
+data/
+weights/
+
+# IDE
+.vscode/
+.idea/
+
+# Системные
+.DS_Store
