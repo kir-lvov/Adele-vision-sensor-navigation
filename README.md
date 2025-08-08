@@ -65,12 +65,12 @@ docker run -it --rm --gpus all adele-drone
 
 ## 📦 Project structure
 ```
-/data          # Датсеты (не включены в репозиторий)
-/weights       # Модели (используйте Git LFS)
-/src           # Исходный код
-Dockerfile     # Конфигурация контейнера
+/data          # Datesets (not included in the repository)
+/weights       # Models (use Git LFS)
+/src           # Source code
+Dockerfile     # Container configuration
 ```
 
 ## 🛠 Requirements
 - Docker 20+
-- NVIDIA Docker (для GPU)
+- NVIDIA Docker (for GPU)
