@@ -11,3 +11,16 @@ A deep learning system that predicts optimal drone flight paths to avoid trees w
 - **Real-time capable**: Processes 640x640 images at 30+ FPS on NVIDIA Jetson
 - **Wind adaptation**: Adjusts path based on wind speed/direction (x/y vectors)
 - **Sigmoid output**: Predicts normalized [0,1] avoidance coordinates
+
+## 📊 Training Progress
+![Training Metrics](docs/training_metrics.png)  
+*Loss and accuracy over 50 epochs*
+
+### Key Metrics
+| Epoch | Loss | Position Error (px) | Wind Adaptation Error |
+|-------|------|---------------------|-----------------------|
+| 10 | 0.87 | 112 | 0.23 |
+| 25 | 0.45 | 98 | 0.15 |
+| 50 | 0.21 | 108 | 0.12 |
+
+---
