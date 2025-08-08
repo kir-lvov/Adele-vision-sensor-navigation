@@ -19,8 +19,8 @@ A deep learning system that predicts optimal drone flight paths to avoid trees w
 ### Key Metrics
 | Epoch | Loss | Position Error (px) | Wind Adaptation Error |
 |-------|------|---------------------|-----------------------|
-| 10 | 0.87 | 112 | 0.23 |
-| 25 | 0.45 | 98 | 0.15 |
-| 50 | 0.21 | 108 | 0.12 |
+| 1 | 0.87 | 138 | 0.23 |
+| 5 | 0.45 | 115 | 0.15 |
+| 15 | 0.30 | 104 | 0.12 |
 
 ---
