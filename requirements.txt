@@ -1,6 +1,6 @@
 # Core dependencies
-torch==2.1.2+cu118 --index-url https://download.pytorch.org/whl/cu118  # PyTorch with CUDA 11.8 support
-torchvision==0.16.2+cu118 --index-url https://download.pytorch.org/whl/cu118  # Image processing utilities
+torch==2.1.2
+torchvision==0.16.2
 
 # Data processing
 numpy==1.26.4  # Fundamental numerical operations
