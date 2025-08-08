@@ -16,7 +16,7 @@ A deep learning system that predicts optimal drone flight paths to avoid trees w
 
 <img width="1920" height="1038" alt="Результат 1" src="https://github.com/user-attachments/assets/d8d906c5-f570-4fac-9b6d-460e9a94c832" />
 
-*Loss and accuracy over 25 epochs*
+*Train and val loss over 25 epochs*
 
 ### Key Metrics
 | Metric         | Training | Validation |
