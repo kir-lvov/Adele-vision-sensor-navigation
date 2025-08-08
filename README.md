@@ -18,6 +18,21 @@ A deep learning system that predicts optimal drone flight paths to avoid trees w
 
 *Train and val loss over 25 epochs*
 
+Key observations:
+- The loss curves demonstrate stable learning without overfitting
+- Final training loss reached 62.0, validation loss stabilized at 58.0
+- The gap between curves remains consistent (~4.0 difference)
+
+For optimal performance, we recommend:
+1. Monitoring loss trends beyond 25 epochs
+2. Adjusting learning rate if plateaus occur
+3. Verifying batch normalization layers
+
+<img width="1920" height="1041" alt="Результат 2" src="https://github.com/user-attachments/assets/c0b7c212-6ddc-4f61-a4d4-0f6029b877cc" />
+
+*Distance loss during train and val over 25 epochs*
+
+
 ### Key Metrics
 | Metric         | Training | Validation |
 |----------------|----------|------------|
