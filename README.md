@@ -74,3 +74,21 @@ Dockerfile     # Container configuration
 ## 🛠 Requirements
 - Docker 20+
 - NVIDIA Docker (for GPU)
+
+## 🌳 Dataset Specification
+
+### Required JSON Format (Example)
+```json
+{
+  "image": "example_frame.jpg",  // Filename must match exactly
+  "annotations": [
+    {
+      "coordinates": {
+        "x": 100,      // Top-left X in pixels (absolute)
+        "y": 150,      // Top-left Y in pixels
+        "width": 45,   // Bounding box width
+        "height": 60   // Bounding box height
+      }
+    }
+  ]
+}
