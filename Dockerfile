@@ -3,8 +3,8 @@ FROM python:3.9-slim
 
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
-    libgl1-mesa-glx \  # OpenGL library required for OpenCV
-    && rm -rf /var/lib/apt/lists/*  # Clean up package lists to reduce image size
+    libgl1-mesa-glx 
+    && rm -rf /var/lib/apt/lists/*  
 
 # Set working directory in container
 WORKDIR /app
