@@ -1,5 +1,5 @@
 # Adele-vision-sensor-navigation
-![Demo Visualization](docs/demo.gif)  
+<img width="619" height="660" alt="Результат работы нейросети" src="https://github.com/user-attachments/assets/0c5e85b7-dc55-4842-b01f-3cc3e66b20d0" />
 *Example of drone path prediction with wind influence*
 
 ## 📌 Project Overview
