@@ -50,16 +50,16 @@ cd Adele-vision-sensor-navigation
 
 ### 2. Running via Docker
 ```bash
-# Сборка образа
+# Building an image
 docker build -t adele-drone .
 
-# Запуск (CPU)
+# Startup (CPU)
 docker run -it --rm \
   -v $(pwd)/data:/app/data \
   -v $(pwd)/weights:/app/weights \
   adele-drone
 
-# Для GPU
+# For GPU
 docker run -it --rm --gpus all adele-drone
 ```
 
